@@ -68,6 +68,12 @@ const upgrades = [
     cost: 200000,
     increase: 25000,
   },
+  {
+    id: 11,
+    name: "Mother Of All Cookies",
+    cost: 1000000000,
+    increase: 1000000,
+  },
 ];
 app.get("/", (req, res) => {
   res.send("ye");
@@ -82,5 +88,5 @@ app.get("/upgrades", (req, res) => {
 });
 
 app.listen(8080, () => {
-  console.log("running");
+  console.log("running on star wars port");
 });
