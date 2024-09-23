@@ -72,7 +72,7 @@ const upgrades = [
     id: 11,
     name: "Mother Of All Cookies",
     cost: 1000000000,
-    increase: 1000000,
+    increase: 3000000,
   },
 ];
 app.get("/", (req, res) => {
